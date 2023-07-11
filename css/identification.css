@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #3a0316;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo_header img {
+    width: 400px;
+    cursor: pointer;
+}
+
+.contact_form {
+    background-color: white;
+    text-align: center;
+    margin: 50px auto;
+    height: 800px;
+    width: 100%;
+    max-width: 40vw;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border: #3a0316;
+    border-radius: 10px;
+}
+
+.contact_form h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact_form .inputDiv {
+    padding-bottom: 2%;
+}
+
+.contact_form .inputDiv input {
+    padding: 10px;
+    width: 100%;
+}
+
+.contact_form .option_gender {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+}
+
+.contact_form .input_gender {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input_gender {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_gender input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    margin-left: 10px;
+}
+
+.input_gender input[type='radio']:checked {
+    background-color: #9e0e40;
+}
+
+.input_gender label {
+    margin-left: 5px;
+}
+
+.register {
+    display: flex;
+    gap: 5%;
+    padding-top: 5vh;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.button_login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #9e0e40;
+    color: white;
+}
+
+.error_message {
+    color: white;
+    padding: 10px 0 0 10px;
+}

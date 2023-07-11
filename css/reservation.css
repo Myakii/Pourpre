@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.reserv_button {
+  background-image: linear-gradient(to right, #9e0e40, #c71585);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.reserv_button:hover {
+  transform: scale(1.05);
+  font-size: 17px;
+}
+
+.info {
+  display: flex;
+  clear: both;
+}

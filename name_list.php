@@ -1,0 +1,29 @@
+<?php 
+
+require_once './include/function_messaging.php';
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/name_list.css">
+    <title>Liste des clientst</title>
+</head>
+<body>
+
+    <?php require_once './pages/header.php' ?>
+
+    <div class="list_name">
+        <h3>Liste des clients</h3>
+        <?php display_name_list($pdo); ?>
+    </div>
+    <?php require_once './pages/footer.php' ?>
+
+</body>
+<script src="./javascript/header.js"></script>
+</html>

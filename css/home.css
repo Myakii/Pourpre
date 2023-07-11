@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.home {
+  margin-bottom: 50px;
+  gap: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our_story {
+  color: white;
+  padding: 50px 110px 50px 110px;
+  background-color: #9e0e40;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.section_title {
+  margin-bottom: 10px;
+}
+
+.slider {
+  position: relative;
+  margin-top: 20px;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.slider h2.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1vh;
+  padding: 10px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.slider img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  object-position: center;
+}
+
+
+.proposition {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.activity_img {
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+  display: none;
+}
+
+.activity_img img {
+  width: 50vw;
+  height: 40vh;
+}
+
+#best_location {
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  border: none;
+  font-size: 18px;
+}
+
+#best_activity {
+  background-color: white;
+  font-family: 'Playfair Display', serif;
+  border: none;
+  font-size: 18px;
+}
+
+.location_img {
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+}
+
+.location_img img {
+  width: 50vw;
+  height: 47vh;
+}
+
+.best_activity {
+
+  text-align: left;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.best_location {
+  text-align: left;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.partner_title {
+
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.partner_logo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.choco_logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.vin_logo {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.resto_logo1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.resto_logo2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}

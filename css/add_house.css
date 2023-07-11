@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.title{
+display: flex;
+justify-content: center;
+color: #9e0e40;
+padding: 4vh;
+}
+
+.photo_select{
+  margin-left: 10vw;
+}
+
+.valider input{
+font-family: 'Playfair Display', serif;
+background-color: #9e0e40 ;
+color: white;
+border: none;
+font-size: 1em;
+font-weight: bold;
+cursor: pointer;
+padding: 1vh;
+border-radius: 10px;
+margin-bottom: 1vh;
+}
+
+.valider{
+  display: flex;
+  justify-content: center;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1vh;
+  width: 48%;
+  margin: auto;
+}
+
+.description label{
+  margin-top: 1vh;
+}
+.description textarea{
+  margin-bottom: 1vh;
+}
+
+
+
+#outputBase64{
+    display: none;
+}
+
+.image_preview{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.colum1 {
+  display: flex;
+  justify-content: flex-start; /* Aligner les éléments à gauche */
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+ .colum1 label /*:not(:first-of-type) */ {
+  margin-top: 1vh;;
+}
+ .colum2 label /*:not(:first-of-type) */ {
+  margin-top: 1vh;;
+}
+
+.colum2 {
+  display: flex;
+  justify-content: flex-end; /* Aligner les éléments à droite */
+  flex-direction: column;
+  flex-wrap: wrap;
+}

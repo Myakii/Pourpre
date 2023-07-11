@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.messages_to_admin {
+    margin: 50px auto;
+    width: 75%;
+}
+
+.name_list {
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.name_list h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.name_list form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.name_list form button {
+    padding: 8px 16px;
+    background-color: #9e0e40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.refresh button[type="submit"] {
+    padding: 12px 24px;
+    background-color: #9e0e40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.chat_box {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat_box p {
+    text-align: center;
+}
+
+.info_message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.message_content {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}

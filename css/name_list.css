@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.list_name {
+    height: 500px;
+    max-width: 600px;
+    margin: 100px auto 100px auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+
+.list_name h3 {
+    text-align: center;
+    color: #333;
+}
+
+.name_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name_list p {
+    margin: 0;
+    color: #333;
+}
+
+.name_list button {
+    padding: 10px;
+    background-color: #9e0e40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+.btn_messaging button[type="submit"] {
+    padding: 15px;
+    background-color: #9e0e40;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.chat-box {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.info-message {
+    font-weight: bold;
+    color: #333;
+}
+
+.message-content {
+    margin-top: 5px;
+    color: #333;
+}

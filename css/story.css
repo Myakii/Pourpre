@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.picture_familly {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.picture_familly img {
+    max-width: 100%;
+    height: auto;
+}
+
+.title_story {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title_story h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.story_paragraph {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .title_story h2 {
+        font-size: 20px;
+    }
+
+    .story_paragraph {
+        font-size: 14px;
+    }
+}

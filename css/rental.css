@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Playfair+Display&display=swap%27");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 60px;
+  justify-items: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.place {
+  width: 400px;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+}
+
+.place a {
+  color: black;
+  text-decoration: none;
+}
+
+.place:hover .place_image img {
+  width: 160%;
+}
+
+.place_image {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.place_image img {
+  width: 150%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition-duration: .3s;
+  transition-timing-function: ease;
+}
+
+.place_body {
+  text-align: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.place-date,
+.place-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.redi_add_house button {
+  background-color: #9e0e40;
+}
